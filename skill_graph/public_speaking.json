@@ -1,0 +1,39 @@
+{
+  "skill_id": "public_speaking",
+  "skill_name": "Public Speaking",
+  "description": "Structured and clear spoken communication",
+
+  "mastery_threshold": 85,
+  "requires_human_validation": true,
+
+  "sub_skills": [
+    {
+      "id": "time_management",
+      "name": "Time Management",
+      "weight": 0.4,
+      "tasks": [
+        {
+          "id": "duration_check",
+          "type": "audio",
+          "evaluation": "ai",
+          "target_seconds": 60,
+          "passing_score": 80
+        }
+      ]
+    },
+    {
+      "id": "vocal_clarity",
+      "name": "Vocal Clarity",
+      "weight": 0.6,
+      "tasks": [
+        {
+          "id": "filler_word_check",
+          "type": "audio",
+          "evaluation": "ai",
+          "max_filler_ratio": 0.05,
+          "passing_score": 75
+        }
+      ]
+    }
+  ]
+}
