@@ -52,3 +52,9 @@ human-ai-co-tutoring-public-speaking/
 ├── ethics.md               # Ethical considerations
 ├── requirements.txt        # Minimal dependencies
 └── README.md
+
+## License
+
+This project is released under the MIT License.
+See the LICENSE file for details.
+
